@@ -1,4 +1,3 @@
-
 version: 2
 
 sources:
@@ -13,3 +12,7 @@ sources:
 
       - name: reviews
         identifier: raw_reviews
+        loaded_at_field: date
+        freshness:
+          warn_after: {count: 24, period: hour}
+          error_after: {count: 48, period: hour}
