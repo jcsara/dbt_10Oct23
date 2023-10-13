@@ -61,7 +61,7 @@ models:
         tests:
           - relationships:
               to: ref('dim_listing_cleansed')
-              field: id
+              field: listing_id
 
       - name: reviewer_name
         tests:
