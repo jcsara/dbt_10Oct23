@@ -47,7 +47,7 @@ models:
         tests:
           - not_null
           - dbt_utils.not_accepted_values:
-              values: ['Raja']
+              values: ['Sara']
       
       - name: is_superhost
         description: Defines whether the hosts is a superhost.
